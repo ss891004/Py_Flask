@@ -32,12 +32,12 @@ class DevelopConfig(Config):
     dbinfo = {
 
         "ENGINE": "mysql",
-        "DRIVER": "pymysql",
+        "DRIVER": "mysqldb",
         "USER": "root",
-        "PASSWORD": "rock1204",
-        "HOST": "localhost",
+        "PASSWORD": "Ssmysql_1",
+        "HOST": "127.0.0.1",
         "PORT": "3306",
-        "NAME": "GP1HelloFlask"
+        "NAME": "flask_restx"
 
     }
 
@@ -50,12 +50,12 @@ class TestConfig(Config):
     dbinfo = {
 
         "ENGINE": "mysql",
-        "DRIVER": "pymysql",
+        "DRIVER": "mysqldb",
         "USER": "root",
-        "PASSWORD": "rock1204",
+        "PASSWORD": " ",
         "HOST": "localhost",
         "PORT": "3306",
-        "NAME": "GP1HelloFlask"
+        "NAME": " "
 
     }
 
@@ -67,12 +67,12 @@ class StagingConfig(Config):
     dbinfo = {
 
         "ENGINE": "mysql",
-        "DRIVER": "pymysql",
+        "DRIVER": "mysqldb",
         "USER": "root",
-        "PASSWORD": "rock1204",
+        "PASSWORD": " ",
         "HOST": "localhost",
         "PORT": "3306",
-        "NAME": "GP1HelloFlask"
+        "NAME": " "
 
     }
 
@@ -84,12 +84,12 @@ class ProductConfig(Config):
     dbinfo = {
 
         "ENGINE": "mysql",
-        "DRIVER": "pymysql",
+        "DRIVER": "mysqldb",
         "USER": "root",
-        "PASSWORD": "rock1204",
+        "PASSWORD": " ",
         "HOST": "localhost",
         "PORT": "3306",
-        "NAME": "GP1HelloFlask"
+        "NAME": " "
 
     }
 

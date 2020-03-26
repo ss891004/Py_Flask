@@ -5,13 +5,13 @@ from Py_Flask.ext import dbs
 from .models import User
 
 
-first = Blueprint('first', __name__)
+first = Blueprint('first', __name__,template_folder='../template')
 
 
-@first.route('/')
+@first.route('/index/')
 def index():
     # return '我是蓝图的主页'
-    return render_template('index.html', msg="这天气适合睡觉")
+    return render_template('index2.html', msg="这天气适合睡觉")
 
 
 @first.route('/createdb/')

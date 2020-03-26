@@ -8,6 +8,8 @@ from .ext import init_ext
 
 from .setting import envs
 
+from Apis import init_api
+
 def create_app():
     app = Flask(__name__)
 
@@ -21,4 +23,5 @@ def create_app():
     init_view(app)
     init_two(app)
 
+    init_api(app)
     return app
